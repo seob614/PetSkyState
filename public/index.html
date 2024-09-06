@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="ko" class=" js  no-overflowscrolling"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
+<title>펫하늘나라</title>
+<link rel="stylesheet" href="CSS/mobile.css">
+<link rel="stylesheet" href="CSS/font.css">
+<link rel="stylesheet" href="CSS/basic/outlogin.css">
+<link rel="stylesheet" href="CSS/basic/banner.css">
+<link rel="stylesheet" href="CSS/basic/latestbasic.css">
+<!--[if lte IE 8]>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/html5.js"></script>
+<![endif]-->
+<script>
+// 자바스크립트에서 사용하는 전역변수 선언
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "1";
+var g5_bo_table  = "";
+var g5_sca       = "";
+var g5_editor    = "";
+var g5_cookie_domain = "";
+</script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/modernizr.custom.70111.js"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/jquery-1.12.4.min.js"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/jquery.menu.js?ver=191202"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/common.js?ver=191202"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/wrest.js?ver=191202"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/js/placeholders.min.js"></script>
+<script src="http://xn--910by1bm9grt9ak0b.com/theme/grape/js/theme_common.js"></script>
+
+<!--
+<script type="text/javascript" src="JS/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="JS/jquery-migrate-3.0.0.js"></script>
+<script type="text/javascript" src="JS/jquery.bxslider.min.js"></script>
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+<body>
+
+<header id="hd" class="top fixed">
+    <h1 id="hd_h1">펫하늘나라, 반려동물 장례식장, 반려동물 화장, 강아지 장례식장, 고양이 장례식장</h1>
+
+    <div class="to_content"><a href="#container">본문 바로가기</a></div>
+
+
+<!-- 팝업레이어 시작 { -->
+<div id="hd_pop">
+    <h2>팝업레이어 알림</h2>
+
+<span class="sound_only">팝업레이어 알림이 없습니다.</span></div>
+
+<script>
+$(function() {
+    $(".hd_pops_reject").click(function() {
+        var id = $(this).attr('class').split(' ');
+        var ck_name = id[1];
+        var exp_time = parseInt(id[2]);
+        $("#"+id[1]).css("display", "none");
+        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+    });
+    $('.hd_pops_close').click(function() {
+        var idb = $(this).attr('class').split(' ');
+        $('#'+idb[1]).css('display','none');
+    });
+});
+</script>
+<!-- } 팝업레이어 끝 -->
+
+
+    <div id="hd_wrapper">
+
+        <div id="logo">
+            <a href="#"><img src="CSS/logo.png" alt="펫하늘나라"  title=""></a>
+        </div>
+        <div id="hd_btn">
+            <div class="ol">
+</div>
+        </div>
+        <div id="hd_sch">
+        </div>
+        <div id="gnb">
+        </div>
+
+    </div>
+    <div id="al_menu">
+        <div class="bg"></div>
+
+
+    </div>
+</header>
+
+
+
+<div id="wrapper">
+
+    <div id="container">
+    <div class="h_top">
+
+</div>
+<!-- 배너 최신글 -->
+
+<!-- banner 최신글 시작 { -->
+<div class="lt_bn">
+  <ul class="bxslider">
+    <li>
+      <div class="bn_txt">
+        <div class="txt_wr">
+          <div class="bn_detail" id="bn_detail_main"  > <br><br>반려동물장례는</div>
+          <div class="bn_detail" id="bn_detail2"> 펫하늘나라가</div>
+          <div class="bn_detail" id="bn_detail2"> 함께 하겠습니다</div>
+        </div>
+      </div>
+      <img src="CSS/banner1.jpg" /></li>
+    <li>
+      <div class="bn_txt">
+        <div class="txt_wr">
+          <div class="bn_detail" id="bn_detail_main"  > <br><br>반려동물장례는</div>
+          <div class="bn_detail" id="bn_detail2"> 펫하늘나라가</div>
+          <div class="bn_detail" id="bn_detail2"> 함께 하겠습니다</div>
+        </div>
+      </div>
+      <img src="CSS/banner2.jpg" /></li>
+    <li>
+      <div class="bn_txt">
+        <div class="txt_wr">
+          <div class="bn_detail" id="bn_detail_main"  > <br><br>반려동물장례는</div>
+          <div class="bn_detail" id="bn_detail2"> 펫하늘나라가</div>
+          <div class="bn_detail" id="bn_detail2"> 함께 하겠습니다</div>
+        </div>
+      </div>
+      <img src="CSS/banner3.jpg" /></li>
+
+  </ul>
+
+</div>
+
+<script>
+$(function(){
+  $('.bxslider').bxSlider({
+    auto: true,
+    speed: 500,
+    pause: 4000,
+    mode:'fade',
+    autoControls: true,
+    pager:true,
+  });
+ });
+
+</script>
+
+<!-- } banner 최신글 끝 --><!-- 배너 끝 -->
+<!-- <div class="n_banner">
+    <div class="n_banner_a">
+    <h1>반려동물장례는<br>
+    <span>펫하늘나라</span>가 함께 하겠습니다.</h1>
+    </div>
+</div> -->
+<div class="idx_rs">
+   <h2><i class="fa fa-calendar"></i> 전화상담</h2>
+   <p class="tel">051-758-0444</p>
+   <div class="online-btn">
+       <p>전화상담 또는 예약문의 전화입니다.</p>
+       <a href="tel:051-758-0444">전화하기</a>
+   </div>
+</div>
+<div class="idx_con">
+    <ul>
+        <li>
+            <h2><span>24시간 상담/예약</span></h2>
+            <p>365일 24시간<br>언제라도 전화 주시면 상담 및 예약 접수가 가능합니다</p>
+        </li>
+        <li>
+            <h2><span>정식허가업체인<br>대한민국 최고의<br>장례식장으로 안내</span></h2>
+            <p>장례 전과정 참관가능하며<br>철저한 개별화장으로<br>진행합니다</p>
+        </li>
+        <li>
+            <h2><span>언택트 장례서비스</span></h2>
+            <p>코로나 팬데믹 시대에 대면을 최소화한 병원부터 장례식장까지<br> 전 과정 대행 서비스<br>보호자님 마음 그 이상으로 정성껏 배웅하겠습니다<br>(장례과정 실시간 사진전송)</p>
+        </li>
+         <li>
+            <h2><span>방문 왕복 픽업</span></h2>
+            <p>이동수단이 여의치 않거나<br>운행이 불가한 경우 모시러 가는 방문 픽업 서비스<br>(픽업비 추가)</p>
+         </li><li>
+            <h2><span>수목장 및 산골 대행서비스</span></h2>
+            <p>풍수지리적으로 엄마의 품에<br>안긴듯한 아이들이 편히 쉴 수 있는 양지바른 수목장에 수목장 또는 산골을 하실 수 있습니다<br>(별도 비용)</p>
+        </li>
+        <li>
+            <h2><span>안락사 - 협력동물병원 </span></h2>
+            <p>펫하늘나라 협력동물병원에서 <br>합법적인 절차와 방법으로 수의사가 직접 수면마취 후 편히 잠들 수 있도록 진행합니다</p>
+        </li>
+    </ul>
+</div>
+<!-- 수목장 사진  -->
+<div class="idx_un_service_pic">
+    <h2>수목장사진</h2>
+    <img src="CSS/petlove1.jpg" /><img src="CSS/petlove2.jpg" /><img src="CSS/petlove3.jpg" />
+</div>
+<br></br>
+
+<!-- 진료과목
+<div class="idx_un_service">
+    <h2>펫하늘나라 #언택트 장례서비스</h2>
+    <p>펫하늘나라 #코로나 팬데믹 시대에 대면을 최소화한 #언택트 #장례대행 #픽업 서비스입니다<br>
+    펫하늘나라에서 병원부터 장례식장까지 모든 과정을 대행합니다<br>
+    펫하늘나라에서 보호자님을 대신하여 보호자님 마음 그 이상으로<br>
+    펫하늘나라에서 소중한 우리 아이의 마지막 소풍길을<br>
+    정성으로 배웅하겠습니다<br>
+    장례과정은 사진으로 실시간 전송합니다</p>
+</div>
+-->
+
+<br></br>
+
+<!-- 안락사  -->
+<div class="idx_un_service">
+    <h2>안락사</h2>
+    <p>아파서 고통스러워하는 강아지나 고양이를 지켜보는 것은 너무 마음 아프고 안타깝습니다<br>
+    아픔을 보호자님께 내색하지 않으려고 애를 쓰는 아이를 지켜보시면서 더욱 마음이 아픕니다<br>
+    힘겨워하는 아이를 안락사로 보내주기로 결정하는 것도 너무 마음 아파서 쉬운 일이 아닙니다<br>
+    다같이 마음 아픈 상황이긴 하지만 우리 아이가 고통스럽게 오래 산다고 행복할까요?<br>
+    고통 없이 편안하게 잠들고 싶지는 않을까요?<br>
+    아이의 입장에서 생각해 보는 것도 우리 보호자가 결정해야 할 것입니다<br>
+    아이의 생각을 알 수 없기에 그 결정은 매우 어렵겠지만, 통증으로 아파하고 고통스러워 하는<br>
+    아이를 그 고통에서 해방 시켜 주는 것도 반려가족 우리 아이에 대한 배려라고 생각합니다</p>
+    <u style="font-size:25px"><br>안락사를 결정하셨다면,<br></u>
+    <p>안락사는 반드시 동물병원에서 진행되어야 합니다<br>
+    평소 다니시던 병원 수의사와 상의를 하시거나<br>
+    저희 펫하늘나라에 전화주시면 협력동물병원과 연계하여 그 아픔을 함께 하겠습니다<br></p>
+    <u style="font-size:25px"><br>안락사 진행 방법은,<br></u>
+    <p>동물병원에 아이가 도착하면<br>
+    우선 진정을 시키고 혈관에 수면마취제를 주사합니다<br>
+    이때 아이는 아주 깊은 수면상태에 빠지게 됩니다<br>
+    이후 심장을 멈추게 하는 주사제를 투여하면 우리 아이는 고통 없이 수면상태로 무지개다리를 건너게 됩니다<br></p>
+    <u style="font-size:25px"><br>안락사 비용은,<br></u>
+    <p>펫하늘나라 전화 주시면 자세하게 상담해 드리겠습니다</p>
+</div>
+
+
+<!-- 의료진  -->
+
+<!-- 후기  -->
+
+<!--  최신글 -->
+<div class="idx_lt">
+    <div class="bg"><span></span><span></span><span></span></div>
+    <div class="lt_wr">
+        <h2>전화상담</h2>
+        <strong class="tel">051-758-0444</strong>
+        <h2>24시 상담</h2>
+        <strong class="tel">010-7410-4477</strong>
+        <p>전화상담 또는 예약문의 전화입니다.</p>
+        <a href="tel:051-758-0444" class="btn_m btn_b02">전화상담</a>
+    </div>
+
+    <div class="lt_wr time">
+        <h2>시간안내</h2>
+        <strong class="tel">24시간 상담</strong>
+    </div>
+
+
+
+</div>
+
+    </div>
+</div>
+
+
+<div id="ft">
+    <div class="ft_wr">
+
+
+            <div id="ft_company">
+                <a href="#">동물장묘업 등록업체 펫노블레스와 업무제휴를 통해 이용자 모집을 대행하는 업체입니다.</a>
+            </div>
+            <div id="ft_copy">Copyright © <b>펫하늘나라</b> All rights reserved.</div>
+
+    </div>
+    <button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span></button>
+    </div>
+
+
+
+
+
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+
+
+
+</body></html>

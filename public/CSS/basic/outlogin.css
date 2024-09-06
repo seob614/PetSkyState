@@ -1,0 +1,28 @@
+@charset "utf-8";
+.ol{float:left;padding:26px 20px}
+#hd_btn .prf_btn {width:auto;;height:33px;line-height:33px}
+.prf_btn img{vertical-align:middle;width:30px;height:auto;border-radius:50px}
+#ol_after_private{display:none;position:absolute;top:80px;right:0;background:#fff;border-radius:3px;z-index:79;width:160px;text-align:left;
+-webkit-box-shadow: 0 2px 7px rgba(0,0,0,0.2) ;
+-moz-box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+box-shadow: 0 2px 7px rgba(0,0,0,0.2);}
+#ol_after_private li{line-height:30px;display:block;float:none}
+#ol_after_private li a{width:100%;display:block;padding:0 15px;line-height:40px;font-size: 13px;color: #a8a6b0;float: left;position: relative;font-weight:normal;white-space: nowrap; border-top: 1px solid rgba(0,0,0,0.03);
+transition: 0.3s all ease-in-out;
+-webkit-transition: 0.3s all ease-in-out;
+-moz-transition: 0.3s all ease-in-out;
+-o-transition: 0.3s all ease-in-out;
+-ms-transition: 0.3s all ease-in-out}
+#ol_after_private li a:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li a:hover{color: #5166d8; background: #fafafa;}
+#ol_after_private li a:active { background: #eaecf7;color:#5166d8}
+
+#ol_after_private li strong{display:inline-block;background:#4ad1d4;color:#fff;;float:right;line-height:20px;border-radius:30px;padding:0 7px;font-size:0.92em;margin-top:9px;font-weight:300}
+#ol_after_private li .admin{color:#ff0000 !important}
+
+@media (max-width: 969px){
+     .ol{padding: 11px 15px;}
+    .prf_btn img{width:26px;}
+    #hd_btn .btn_b02 {padding:0 15px}
+    #ol_after_private{top:55px}
+}
